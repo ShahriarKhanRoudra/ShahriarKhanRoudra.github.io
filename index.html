@@ -7,21 +7,23 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 </head>
 <body>
     <header>
         <nav>
             <div class="logo">
-                <a href="#">Shahriar Khan</a>
+                <a href="#">SHAHRIAR KHAN</a>
             </div>
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#research">Research</a></li>
+                <li><a href="#technical-strengths">Technical Strengths</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#publications">Publications</a></li>
                 <li><a href="#experience">Experience</a></li>
-                <li><a href="#teaching">Teaching</a></li>
-                <li><a href="Shahriar_Khan.pdf" target="_blank">CV</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="CV_Shahriar_Khan.pdf" target="_blank">CV</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -29,9 +31,11 @@
 
     <section class="hero">
         <div class="hero-content">
-            <h1>Shahriar Khan</h1>
-            <p>Aspiring PhD Candidate in Electrical and Electronic Engineering</p>
-            <a href="#about" class="btn">Learn More</a>
+            <h1 class="hero-title">SHAHRIAR KHAN</h1>
+            <p class="hero-subtitle">Aspiring PhD Candidate in Electrical and Electronic Engineering</p>
+            <div class="animated-text">
+              <p>I am interested in <span id="typed-text"></span></p>
+            </div>
         </div>
     </section>
 
@@ -40,23 +44,25 @@
             <div class="about-me-container">
                 <div class="about-me-text">
                     <h2>About Me</h2>
-                    <p>I am a recent graduate of Bangladesh University of Engineering and Technology (BUET) with a Bachelor's degree in Electrical and Electronic Engineering, where I achieved a CGPA of 3.77/4.00. My passion lies at the intersection of electronics and biotechnology, with a strong research focus on nanoelectronic devices for biomedical applications. My undergraduate thesis, which involved designing novel FET-based biosensors, ignited my desire to pursue a PhD and contribute to the development of next-generation diagnostic tools. I am actively seeking a challenging PhD position where I can apply my skills in semiconductor device physics and fabrication to solve real-world problems in healthcare.</p>
+                    <p>A high-achieving graduate of Bangladesh University of Engineering and Technology (BUET) with a B.Sc. in Electrical and Electronic Engineering (CGPA: 3.77/4.00), my research is focused on nanoelectronic devices for biomedical applications. My undergraduate thesis on DG-JLFET biosensors involved extensive device modeling and simulation, leading to novel architectures with enhanced sensitivity. I am now seeking a challenging Ph.D. position to leverage my skills in semiconductor device physics and fabrication to develop next-generation diagnostic tools and contribute to high-impact research in healthcare.</p>
                 </div>
                 <div class="profile-picture-container">
-                    <img src="profile.jpg" alt="Shahriar Khan">
+                    <img src="Roudra.jpg" alt="Shahriar Khan">
                 </div>
             </div>
         </section>
 
         <section id="research">
             <h2>Research Interests</h2>
-            <ul>
-                <li>FET-Based Biosensors</li>
-                <li>Tunnel FETs</li>
-                <li>2D Materials</li>
-                <li>Semiconductor Device Physics</li>
-                <li>Nanoelectronic Devices</li>
-            </ul>
+            <div class="interests-container">
+                <ul>
+                    <li class="interest-item">FET-Based Biosensors</li>
+                    <li class="interest-item">Tunnel FETs</li>
+                    <li class="interest-item">2D Materials</li>
+                    <li class="interest-item">Semiconductor Device Physics</li>
+                    <li class="interest-item">Nanoelectronic Devices</li>
+                </ul>
+            </div>
         </section>
 
         <section id="projects">
@@ -65,6 +71,12 @@
                 <div class="research-project">
                     <h3>DESIGNING THE CAVITY ARCHITECTURE IN DOUBLE GATE JUNCTIONLESS FIELD EFFECT TRANSISTOR FOR ENHANCED BIOMOLECULE DETECTION</h3>
                     <p class="project-meta">Undergraduate Thesis</p>
+                    <div class="project-images">
+                        <img src="Slide7.PNG" alt="Slide 7">
+                        <img src="Slide8.PNG" alt="Slide 8">
+                        <img src="currentfive.png" alt="currentfive.png">
+                        <img src="sensi.png" alt="sensi.png">
+                    </div>
                     <ul>
                         <li>Designed and simulated a novel DG-JLFET biosensor with enhanced sensitivity.</li>
                         <li>Investigated the impact of cavity dimensions on device performance.</li>
@@ -134,52 +146,75 @@
                 <p><strong>“Designing the Cavity Architecture in Double Gate Junctionless Field Effect Transistors for Enhanced Biomolecule Detection.”</strong></p>
                 <p><em>Nanoscale Advances</em>, 7(12), 3746-3763 (2025).</p>
                 <p><a href="https://doi.org/10.1039/D4NA00928B" target="_blank">DOI:10.1039/D4NA00928B</a></p>
+                <p class="abstract">This study has investigated double-gate junctionless field effect transistor (DG-JLFET) designs with different cavity configurations and assessed their impact on biosensing performance. Through simulations and analysis of the electrical properties, this study has identified structures that significantly enhance biosensing performance compared to traditional DG-JLFETs. Different cavity architectures have been simulated and evaluated using key biosensing metrics, including the threshold voltage, change in threshold voltage, percentage change in threshold voltage, change in the minimum point of surface potential, Ion–off ratio, and sensitivity. Analysis of all the structures has revealed that no single structure has outperformed others across all the metrics when the dielectric constant is varied over a wide range. Notably, structure D, featuring drain side cavities, has shown the highest Ion–off ratio, with values of 3.03 × 107–3.73 × 107 for keratin. In contrast, structure E, with an asymmetrical cavity arrangement featuring an upper cavity on the left and a lower cavity on the right, has exhibited the highest sensitivity, achieving 98.63%–99.25% for the same biomolecule. When considering sensitivity as the key biosensing metric, structures E, F (alternating cavities on the vertical axis), and G (a central upper cavity and bilateral lower cavities) have shown better performance than all the other configurations. This study has further investigated the effect of varying the dielectric constant and channel occupancy of biomolecules on biosensing performance. For the above parametric variations, structure E has shown the highest change in the threshold voltage, while structure G has achieved the highest percentage change in the threshold voltage. These results contribute to the systematic design of DG-JLFET-based biosensors, providing a framework for optimizing cavity architectures to enhance biomolecule detection sensitivity.</p>
             </div>
+        </section>
+
+        <section id="technical-strengths">
+            <h2>Technical Strengths</h2>
+            <ul>
+                <li><strong>Computer Languages:</strong> C, MATLAB</li>
+                <li><strong>Development Environment:</strong> Silvaco TCAD, Cadence, Quartz, Proteus, PSPICE, AutoCAD, Windows</li>
+            </ul>
         </section>
 
         <section id="experience">
             <h2>Work Experience</h2>
-            <div class="job">
-                <h3>Adjunct Lecturer</h3>
-                <p><em>Ahsanullah University of Science and Technology</em> | Fall 2024-Present</p>
-                <ul>
-                    <li>Conducted theory and laboratory classes for courses such as Electronic Circuits I and II.</li>
-                    <li>Provided mentorship to a group of 25 students, including assignment evaluation and academic guidance.</li>
-                </ul>
-            </div>
-            <div class="job">
-                <h3>Internship</h3>
-                <p><em>THINK Silicon</em> | November 2023</p>
-                <ul>
-                    <li>Supported embedded system tasks focusing on SCADA Modbus protocols in industrial automation.</li>
-                    <li>Exposed to PCB design processes, including circuit layout and hardware development.</li>
-                </ul>
+            <div class="experience-container">
+                <div class="job adjunct-lecturer">
+                    <h3>Adjunct Lecturer</h3>
+                    <p class="company">Ahsanullah University of Science and Technology</p>
+                    <p class="duration">Fall 2024 - Present</p>
+                    <h4>Courses Taught:</h4>
+                    <ul class="courses-list">
+                        <li>Electronic Circuits I and LAB</li>
+                        <li>Electrical Circuits I and II</li>
+                        <li>Electrical Properties of Materials</li>
+                    </ul>
+                    <h4>Responsibilities:</h4>
+                    <ul>
+                        <li>Conducted theory and laboratory classes.</li>
+                        <li>Provided mentorship to a group of 25 students.</li>
+                        <li>Handled assignment evaluation, academic guidance, and grading.</li>
+                    </ul>
+                </div>
+                <div class="job internship">
+                    <h3>Internship</h3>
+                    <p class="company">THINK Silicon</p>
+                    <p class="duration">November 2023</p>
+                    <ul>
+                        <li>Supported embedded system tasks focusing on SCADA Modbus protocols in industrial automation.</li>
+                        <li>Exposed to PCB design processes, including circuit layout and hardware development.</li>
+                    </ul>
+                </div>
             </div>
         </section>
 
-        <section id="teaching">
-            <h2>Teaching</h2>
+        <section id="achievements">
+            <h2>Achievements</h2>
             <ul>
-                <li><strong>Fall 2024:</strong> EEE 201 - Electronic Circuits I (Lecturer)</li>
-                <li><strong>Fall 2024:</strong> EEE 202 - Electronic Circuits I Lab (Lecturer)</li>
+                <li>Earned placement on the Dean's Award List for two consecutive semesters</li>
+                <li>Honored with University Merit Scholarship for academic excellence in three terms</li>
+                <li>Placed in the top 2% (Rank 216/12,000) in the BUET Admission Test (2018).</li>
+                <li>Awarded Talent Pool scholarship in JSC, 2013, and General scholarship in SSC,2016</li>
             </ul>
         </section>
 
         <section id="news">
             <h2>News</h2>
             <ul>
-                <li><strong>Oct 2025:</strong> Our paper on designing cavity architecture in DG-JLFETs was published in Nanoscale Advances!</li>
-                <li><strong>Sep 2025:</strong> Started my position as an Adjunct Lecturer at Ahsanullah University of Science and Technology.</li>
+                <li><strong>April 2025:</strong> Our paper on designing cavity architecture in DG-JLFETs was published in Nanoscale Advances!</li>
+                <li><strong>June 2025:</strong> Started my position as an Adjunct Lecturer at Ahsanullah University of Science and Technology.</li>
             </ul>
         </section>
 
         <section id="contact">
             <h2>Contact</h2>
             <div class="contact-links">
-                <a href="mailto:shahriar.khan1806092@gmail.com"><i class="fas fa-envelope"></i> Email</a>
-                <a href="https://www.linkedin.com/in/shahriarkhanroudra" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                <a href="https://scholar.google.com/citations?user=your-scholar-id" target="_blank"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
-                <a href="https://www.researchgate.net/profile/your-.com/profile/your-profile" target="_blank"><i class="fab fa-researchgate"></i> ResearchGate</a>
+                <a href="mailto:shahriarkhan1806092@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+                <a href="https://www.linkedin.com/in/shahriarkhaneee/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://scholar.google.com/citations?user=uUEMPCUAAAAJ&hl=en" target="_blank"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
+                <a href="https://www.researchgate.net/profile/Shahriar-Khan-27?ev=hdr_xprf" target="_blank"><i class="fab fa-researchgate"></i> ResearchGate</a>
             </div>
         </section>
     </div>

@@ -147,12 +147,15 @@ h2 {
 }
 
 .project-images {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
 }
 
 .project-images img {
-    width: 50%;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
     border-radius: 5px;
 }
 
@@ -187,7 +190,7 @@ h2 {
 .research-project h3 {
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     margin-bottom: 0.5rem;
 }
 
@@ -204,4 +207,116 @@ h2 {
 .technologies {
     margin-top: 1rem;
     font-weight: 700;
+}
+
+/* New Hero Section Styles */
+.hero-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.animated-text p {
+    font-size: 1.2rem;
+    display: inline;
+}
+
+#typed-text {
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+.typed-cursor {
+    opacity: 1;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.abstract {
+    margin-top: 1rem;
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+.interests-container ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.interest-item {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+.experience-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+.job {
+    background-color: #34495e;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.job h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.job .company {
+    font-style: italic;
+    margin-bottom: 0.5rem;
+}
+
+.job .duration {
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.job h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.courses-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.courses-list li {
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+.about-me-text p {
+    font-size: 1.1rem;
 }

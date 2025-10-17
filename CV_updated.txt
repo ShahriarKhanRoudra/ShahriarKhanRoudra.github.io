@@ -1,0 +1,107 @@
+SHAHRIAR KHAN
+Google Scholar LinkedIn ResearchGate
+Mirzapur-1940, Tangail, Dhaka, Bangladesh
++8801776-611432 shahriarkhan1806092@gmail.com 1806092@eee.buet.ac.bd
+
+RESEARCH INTERESTS
+FET-Based Biosensors · Tunnel FETs 2D Materials Semiconductor Device Physics Nanoelectronic Devices
+
+EDUCATION
+• Bangladesh University of Engineering and Technology
+B.Sc. in Electrical and Electronic Engineering
+Major: Electronics
+2018-2024
+CGPA: 3.77/4.00
+Thesis: Designing the Cavity Architecture in Double Gate Junctionless Field Effect Transistor for Enhanced Biomolecule Detection
+Supervisor: Dr. Ehsanur Rahman
+Relevant Coursework: Solid State Devices, Compound state devices, Electrical Properties of Materials, VLSI Circuit and Design, Analog Integrated Circuit and Design, Microprocessor and Embedded System, Digital Electronics, Optoelectronics, Processing and Fabrication Technology
+
+TECHNICAL STRENGTHS
+Computer Languages: C, MATLAB
+Development Environment: Silvaco TCAD, Cadence, Quartz, Proteus, PSPICE, AutoCAD, Windows
+
+PUBLICATIONS
+• Shahriar Khan, Ehsanur Rahman, “Designing the Cavity Architecture in Double Gate Junction-
+less Field Effect Transistors for Enhanced Biomolecule Detection.” Nanoscale Advances, 7(12),
+3746-3763 (2025) · DOI:10.1039/D4NA00928B
+
+RESEARCH PROJECTS
+Polar Gate Engineering and Cavity Optimization in JL-TFET Biosensors for Ultra-Sensitive
+Label-Free Detection Ongoing
+BUET
+January 2025
+Supervised by Dr. Ehsanur Rahman
+Investigating optimal placement of the polar gate by analyzing various biosensing parameters to identify the
+best configuration.
+Assessing different cavity architectures and varying gate work function to optimize overall device performance.
+
+Comparative Design of TMDC and Si-based Junctionless TFETs for Biosensing Applications
+Ongoing
+BUET
+July 2025
+Supervised by Dr. Ehsanur Rahman
+Evaluating TMDC materials versus silicon in junctionless TFETs for biomolecule detection using identical
+device parameters.
+Conducting TCAD simulations and MATLAB analysis to compare structural and electrical performance across
+both material platforms.
+
+Automated Experimental Setup to Measure Optical Power-Current Characteristics of LEDs
+[Under Review]
+BUET
+January 2024
+Supervised by Dr. Md Zunaid Baten
+Developed a low-cost Arduino-driven setup to measure LED L-I characteristics, incorporating an LDR and
+black-box design with two-step calibration.
+Validated measurements against a standard optical power meter and plotted accurate L-I curves for red, green,
+and blue LEDs in MATLAB.
+
+8:1 Analog Multiplexer Design in Cadence Virtuoso
+BUET
+July 2023
+Supervised by Dr. Muhammad Abdullah Arafat
+Designed an 8:1 analog multiplexer using hierarchical 2:1 blocks with selector logic and transmission gates.
+Conducted schematic simulations to verify correct switching behavior.
+
+Hybrid 4-Way Traffic Control System Using 74-Series ICs
+BUET
+July 2023
+Supervised by Dr. Lutfa Akter
+Designed a 4-way traffic control system with jam management, priority handling for emergency/VIP vehicles,
+and pedestrian automation, with manual override using 74-series ICs.
+
+Automated Greenhouse Control System Using Feedback
+BUET
+July 2023
+Developed an Arduino UNO-based greenhouse prototype integrating sensors for climate and soil regulation.
+Implemented feedback control to maintain optimal conditions and support sustainable farming.
+
+WORK EXPERIENCE
+• Adjunct Lecturer, Department of EEE
+Ahsanullah University of Science and Technology
+Fall 2024-Present
+Courses: Electronic Circuits I and LAB Electrical Circuits I and II Electrical Properties of Materials
+Responsibilities: Conducted theory and laboratory classes and provided mentorship to a group of 25
+students, including assignment evaluation, academic guidance, and grading for the final exam.
+
+INTERNSHIP
+• THINK Silicon
+November 2023
+Supported embedded system tasks focusing on SCADA Modbus protocols in industrial automation.
+Exposed to PCB design processes, including circuit layout and hardware development.
+
+ACHIEVEMENTS
+• Earned placement on the Dean's Award List for two consecutive semesters
+• Honored with University Merit Scholarship for academic excellence in three terms
+• Placed in the top 2% (Rank 216/12,000) in the BUET Admission Test (2018).
+• Awarded Talent Pool scholarship in JSC, 2013, and General scholarship in SSC,2016
+
+REFERENCES
+Dr. Ehsanur Rahman
+Assistant Professor, EEE, BUET
+Email: ehsaneee@eee.buet.ac.bd
+Phone: +88 01780982348
+
+Dr. Mohammad Jahangir Alam
+Professor, EEE, BUET
+Email: mjalam@eee.buet.ac.bd
+Phone: +88 01911356905
