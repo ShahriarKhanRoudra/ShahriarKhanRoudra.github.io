@@ -387,6 +387,29 @@ h2 {
 
 }
 
+#hobby p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.achievements-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.achievement-item {
+    display: flex;
+    gap: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.achievement-year {
+    font-weight: bold;
+    min-width: 80px;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     nav ul {
@@ -415,5 +438,10 @@ h2 {
 
     h2 {
         font-size: 2rem;
+    }
+
+    .achievement-item {
+        flex-direction: column;
+        gap: 0.5rem;
     }
 }
