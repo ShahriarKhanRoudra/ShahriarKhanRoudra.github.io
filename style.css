@@ -386,3 +386,34 @@ h2 {
     box-shadow: 0 15px 25px rgba(0,0,0,0.1);
 
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        display: none; /* Hide navigation links on smaller screens */
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .about-me-container {
+        flex-direction: column;
+    }
+
+    .project-images {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-content h1 {
+        font-size: 3rem;
+    }
+
+    .hero-content p {
+        font-size: 1.2rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+}
